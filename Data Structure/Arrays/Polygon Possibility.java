@@ -28,7 +28,7 @@ class Polygon {
             if (check(arr, n)) 
 			System.out.println("Yes"); 
 		else
-			System.out.println("No"); 
+			System.out.print("No"); 
             t--;
         }
     }

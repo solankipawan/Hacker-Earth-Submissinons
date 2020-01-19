@@ -9,9 +9,11 @@ class Atm_Queue {
         }
 
         int flag =1;
-        for(int i =1; i<n; i++) {
+        int i =1;
+            // for(int i =1; i<n; i++)
+            while(i<n) {
             if(arr[i-1]<arr[i]) {
-                continue;
+                i++;
             }
             else {
                 flag +=1;
